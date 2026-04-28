@@ -156,6 +156,17 @@ The model is instructed to respond **only in JSON**, which is parsed and rendere
 
 ---
 
+## Roadmap
+
+- [ ] Aircraft swap / substitution recommendations applied back to the sim state
+- [ ] Crew FTL tracking per aircraft leg
+- [ ] Multi-day scenario with overnight positioning
+- [ ] Passenger rebooking cost model per recovery option
+- [ ] Side-by-side comparison of AI options vs. human controller decisions
+- [ ] Export disruption log and AI responses to PDF debrief report
+
+---
+
 ## License
 
 MIT - see [LICENSE](LICENSE) for details
