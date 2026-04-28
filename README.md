@@ -117,9 +117,24 @@ Use the **Sim speed** dropdown (top-right) to advance time:
 
 ---
 
+## How the AI Layer Works
+
+The prompt is **dynamically constructed at runtime** from live simulation state:
+
+```
+DISRUPTION REPORT       ← type, severity, airport, description
+AFFECTED FLIGHTS        ← flight IDs, routes, current delay, status
+NETWORK STATUS          ← OTP, total delay mins, cancellations, diversions
+AIRCRAFT FLEET          ← each tail's type, operator, position, AOG flag
+```
+
+The model is instructed to respond **only in JSON**, which is parsed and rendered into the structured decision support UI. This mirrors how a real OCC decision-support tool would work: the AI's role is to surface options quickly, not to act autonomously.
+
+---
+
 ## License
 
-MIT — see [LICENSE](LICENSE) for details
+MIT - see [LICENSE](LICENSE) for details
 
 ---
 
