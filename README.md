@@ -132,6 +132,20 @@ The model is instructed to respond **only in JSON**, which is parsed and rendere
 
 ---
 
+## Disruption Scenarios
+
+| Type | Low | Medium | High |
+|---|---|---|---|
+| 🌩 Weather | Strong crosswind (+10–25 min) | Low visibility procedure (+20–50 min) | Severe thunderstorm / ground stop (+60–120 min) |
+| 🔧 Mechanical | Minor MEL item (+15–30 min) | Tech delay (+45–90 min) | AOG critical fault (+120–240 min) |
+| 👤 Crew | Hotel transport delay (+15–30 min) | Crew positioning (+30–70 min) | FTL exceedance risk (+90–180 min) |
+| 📡 ATC | Airborne hold (+10–20 min) | ATFM slot restriction (+25–60 min) | Sector closure / action (+60–150 min) |
+| 🛬 Ground Ops | Late pax boarding (+10–20 min) | Baggage system outage (+25–45 min) | Gate/terminal block (+40–80 min) |
+| 🔒 Security | Lane closure (+10–20 min) | Enhanced screening (+20–45 min) | Terminal evacuation (+60–120 min) |
+| 🩺 Medical | Gate incident (+10–25 min) | Medical diversion (+60–120 min) | In-flight emergency / PAN (+45–90 min) |
+
+---
+
 ## License
 
 MIT - see [LICENSE](LICENSE) for details
