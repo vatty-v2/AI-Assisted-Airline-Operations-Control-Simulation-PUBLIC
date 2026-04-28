@@ -146,6 +146,16 @@ The model is instructed to respond **only in JSON**, which is parsed and rendere
 
 ---
 
+## Key Design Decisions
+
+**Structured JSON outputs** - the AI is constrained to return valid JSON rather than freeform text. This ensures the response is always renderable as a decision support card, not just a paragraph of advice.
+
+**Full context injection** - rather than a static system prompt, the entire operational picture is reconstructed per-request. This means the AI's recommendations are always grounded in the current sim state.
+
+**No hallucination guardrails (intentional)** - this is a simulation; the AI's suggestions are evaluated for operational plausibility rather than filtered, which is useful for studying where LLM reasoning succeeds or fails in scheduling domains.
+
+---
+
 ## License
 
 MIT - see [LICENSE](LICENSE) for details
