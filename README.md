@@ -25,6 +25,14 @@ This project was originally developed in a private repository and later publishe
 
 ---
 
+## Demo
+
+> Live OCC dashboard showing flight board, active disruption, and AI recovery analysis*
+
+![OCC Dashboard](occ_simulation_showcase.gif)
+
+---
+
 ## Features
 
 - **Live Flight Progress Board** - 15 flights advancing through `SCH → BRD → DEP → ARR` states in simulated time (1×, 30×, 120×, 300× speed)
